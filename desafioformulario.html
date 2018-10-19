@@ -1,0 +1,78 @@
+<!DOCTYPE html lang="pt-br">
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css?family=K2D" rel="stylesheet">
+    <title>Desafio Formulário</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/maindesafio.css" />
+
+</head>
+
+<body>
+
+    <form action="#" method="POST">
+        <div class="form-control">
+            <label for="nome"> Nome :</label>
+            <input type="text" placeholder="nome" name="nome">
+
+        </div>
+
+
+        <div class="form-control">
+            <label for="senha"> Senha: </label>
+            <input type="password" placeholder="senha">
+        </div>
+
+        <div class="form-control">
+            <label for="opcoes">Escolha uma ou mais opções: </label>
+            <div class="opcoes">
+                <input type="checkbox" name="opcoes" value="mulher"> mulher
+                <input type="checkbox" name="opcoes" value="poderosa">poderosa
+                <input type="checkbox" name="opcoes" value="linda">linda
+                <input type="checkbox" name="opcoes" value="maravilhosa">maravilhosa
+            </div>
+        </div>
+
+        <!-- aqui somente uma escolha -->
+        <div class="form-control">
+            <label for="one"> Escolha uma opção : </label>
+            <div class="opcoes">
+                <input type="radio" name="one" value="super forca"> Super Força
+                <input type="radio" name="one" value="ser invisivel"> Ser invisivel
+                <input type="radio" name="one" value="ler mentes"> Ler mentes
+                <input type="radio" name="one" value="super velocidade"> Super velocidade
+            </div>
+        </div>
+
+        <div class="form-control">
+            <label for="topico"> Selecione um tópico : </label>
+            <select name="topico">
+                <option value=" " selected disabled> Selecione um tópico </option>
+                <option value="deixar meu site mais bonito"> Deixar meu site mais bonito</option>
+                <option value=" outra"> Outra opção </option>
+            </select>
+        </div>
+
+        <div class="form-control">
+            <label for="valor">Escolha um valor : </label>
+            <input type="number" name="valor" min="1" max="12">
+        </div>
+
+        <div class="form-control">
+            <label for="comentario">Comentário</label>
+            <textarea name="comentario" cols="20" rows="10" maxlength="100">
+
+        </textarea>
+        </div>
+        
+        <div class="botao">
+            <input type="submit" value="submit"> <!-- criando o botão para envia value "valor do botão" -->
+        </div>
+    </form>
+
+</body>
+
+</html>

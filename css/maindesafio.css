@@ -1,0 +1,43 @@
+body{
+    font-family: 'K2D', sans-serif;
+}
+
+.form-control{
+    display: flex;
+    justify-content: center;
+    margin: 8px;
+    
+}
+
+.opcoes {
+    display: flex;
+    flex-direction:column;
+    align-content:space-between;
+    justify-content:center;
+     
+}
+
+label{
+    display: inline-block;
+    width: 49%;
+    text-align: right;
+    margin: 5px;
+}
+
+.form-control > *{ /* o asterisco pegará tudo e nesse caso somente filhas diretas */
+    display: inline-block;
+    width: 49%;
+}
+
+textarea{
+    width: 900px;
+}
+
+.botao{
+    Display: inline-block;
+    Width: 49% ;
+    align-content: center;
+    background-color: SteelBlue; /* aqui tentei mudar o preenchimento do botão  */
+    color: white;
+}
+

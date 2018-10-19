@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Yuri">
+    <title>Contato</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/contato.css" />
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="img/logo-cozinharia.svg" alt="logo Cozinharia" />
+            <nav>
+                <!-- MENU -->
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">A Cozinharia</a></li>
+                    <li><a href="#">Cardápio</a></li>
+                    <li><a href="#" class="active">Eventos</a>
+
+                        <!-- SUBMENU -->
+                        <ul class="submenu">
+                            <li><a href="#">Casamentos</a>
+                            <li><a href="#">Empresariais</a>
+                        </ul>
+                    </li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="contatos">
+
+        <div class="container">
+
+            <h2>Contato</h2>
+
+            <div class="esquerdo">
+
+                <p>Rua Frei Caneca, 920 - Consolação</p>
+                <p>São Paulo - SP</p>
+
+                <div class="icones">
+                    <img src="img/icone-fone.svg" alt="numero de telefone">
+                    <p>11 4443 0324</p>
+                </div>
+
+                <div class="icones">
+                    <img src="img/icone-mail.svg" alt="endereço de email">
+                    <p>contato@acozinharia.com.br</p>
+                </div>
+
+            </div>
+
+            <div class="direita">
+                <p>
+                    <p>
+                        <div class="negrito">Horário de funcionamento</div>
+                    </p>
+                    <p> Segunda a Quarta das 12h às 15h / 19h30 às 23h </p>
+                    <p> Quinta e Sexta das 12h às 15h / 19h30 às 00h </p>
+                    <p> Sábado das 12h às 00h - direto </p>
+                    <p> Domingo das 12h às 17h</p>
+                </p>
+            </div>
+
+        </div>
+
+        <!-- MAPA -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234071.7479469759!2d-46.82641531605112!3d-23.555113163649576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5834abda5c89%3A0xed8b13863aac7f03!2sR.+Frei+Caneca%2C+920+-+Consola%C3%A7%C3%A3o%2C+S%C3%A3o+Paulo+-+SP%2C+01307-002!5e0!3m2!1spt-BR!2sbr!4v1539983118646"
+            width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        
+            <!-- FORMULÁRIO -->
+        <p>
+            <h3>Entre em contato conosco!</h3>
+        </p>
+        <div class="formulario">
+            <form action="#" method="post">
+                <label for="nome"> Nome completo </label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email</label>
+                <input type="text" name="_replyto" required />
+
+                <label for="opcao">Assunto</label>
+                <select id="opcao" name="assunto">
+                    <option value="Sugestoes">Críticas e sugestões</option>
+                    <option value="fornecedores">Fornecedores</option>
+                    <option value="reservas">Reservas</option>
+                    <option value="trabalhe">Trabalhe conosco</option>
+                </select>
+
+                <!-- cx txt -->
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="area-texto"></textarea>
+
+                <!-- botao -->
+                <input type="submit" value="Enviar" name="Enviar">
+
+            </form>
+        </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+    <!-- rodapé -->
+    <footer id="rodape">
+        <div class="container">
+
+            <div class="endereco">
+                <p>
+                    <div class="negrito">A Cozinharia</div>
+                </p>
+                <p>Rua Frei Caneca, 920 - Consolação</p>
+                <p>Tel: 11 4443 0324</p>
+                <p>e-mail: contato@acozinharia.com.br</p>
+
+            </div>
+
+            <div class="funcionamento">
+                <p>
+                    <div class="negrito">Horário de funcionamento:</div>
+                </p>
+                <p> Segunda a Quarta das 12h às 15h / 19h30 às 23h </p>
+                <p> Quinta e Sexta das 12h às 15h / 19h30 às 00h </p>
+                <p> Sábado das 12h às 00h - direto </p>
+                <p> Domingo das 12h às 17h </p>
+            </div>
+
+            <div class="socialmedia">
+                <a href="#" target="_blank"><img src="img/facebook-01.png" alt="logo Facebook"></a>
+                <a href="#" target="_blank"><img src="img/twitter-01.png" alt="logo Twitter"></a>
+                <a href="#" target="_blank"><img src="img/linkedin-01.png" alt="logo Linkedin"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

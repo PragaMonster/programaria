@@ -1,0 +1,100 @@
+body {
+    font-family: 'Open Sans', 'Arial', sans-serif;
+}
+
+
+header {
+
+    height: 97px;
+    position: absolute;
+    left:0;
+    right: 0;
+      
+}
+
+nav{
+    margin-left: 800px;
+    color: gray;
+    text-decoration: none;
+}
+
+#primeirasecao{ /*foto de arroz e camarão*/
+    background: url('../img/home.jpg') no-repeat center center;
+    height: 300px;
+    color: gray;
+    margin-top: 50px;
+    width: 90%;
+
+}
+
+.botaocontato{
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid gray;
+    text-decoration: none;
+    width: 130px;
+	height: 25px;
+    padding: 15px;
+    font-size: 15px;
+    margin-right: 10px;
+    color: gray;
+    
+}
+
+.botaocardapio{
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid gray;
+    text-decoration: none;
+    width: 130px;
+    height: 25px;
+    padding: 15px;
+    font-size: 15px;
+    margin-right: 10px;
+    color: gray;
+
+}
+
+h2{
+    color: gray;
+    font-size: 36px;
+    border-bottom: 3px solid #EED33E;
+  
+}
+
+
+
+.cozinhariaesquerda {
+    width: 48%;
+    margin-right: 2%;
+}
+
+.botao-amarelo {
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 200px;
+    height: 25px;
+    padding: 15px;
+    font-size: 15px;
+    margin-right: 10px;
+    color: rgb(0, 0, 7);
+    background-color: yellow;
+}   
+
+.cozinhariadireita {
+    display: block;
+    width: 48%;
+    margin-left: 2%;
+}
+
+
+
+.cozinhariadireita img {
+display: block;
+width: 100%;
+right: 0;
+    }

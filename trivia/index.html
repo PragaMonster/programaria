@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trivia Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+
+</head>
+
+<body>
+
+    <div>
+
+        <form name="desafio Trivia">
+            <h1>Trivia</h1>
+
+            <p>
+                <label for="patolino">"Qual o nome do Pato inimmigo do Pernalonga ? "</label>
+                <input type="text" id="patolino" placeholder="sua resposta" />
+                <input type="submit" onclick="pergunta1" value="Proxima">
+
+            </p>
+
+            <p>
+                <label for="chiquinha"> "Qual o nome da amiga do Chaves ?"</label>
+                <input type="text" id="chiquinha" placeholder="sua resposta" />
+                <input type="submit" onclick="pergunta2" value="Proxima">
+            </p>
+
+            <p>
+                <label for="azul"> "Qual a cor do cabelo da Ju ?"</label>
+                <input type="text" id="azul" placeholder="sua resposta" />
+                <input type="submit" onclick="pergunta3" value="Fim">
+            </p>
+
+
+            <p class="titulo"> resposta certa</p>
+
+            <div class="box-certo">
+                <p>
+                    <div id="patolino"></div>
+                </p>
+
+                <p>
+                    <div id="chiquinha"></div>
+                </p>
+
+                <p>
+                    <div id="azul"></div>
+                </p>
+
+            </div>
+
+
+            <p class="titulo"> resposta errada</p>
+
+            <div class="box-errado">
+                <p>
+                    <div id="patolinoErrado"></div>
+                </p>
+
+                <p>
+                    <div id="chiquinhaErrado"></div>
+                </p>
+
+                <p>
+                    <div id="azulErrado"></div>
+                </p>
+
+
+            </div>
+
+        </form>
+    </div>
+</body>
+
+<script src="js/script.js"></script>
+
+</html>
